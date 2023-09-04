@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5ebff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  width: 210px;
+  background-color: #44689D;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 400;
+}
+
+/* nav ul li a.active {
+  background-color: #cf7c6d;
+} */
+
+.logo {
+  padding: 20px;
+  margin-left: 34px;
+}
+
+.logo img {
+  width: 80px;
+  border-radius: 2px;
+}
+
+main {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #777;
+}
+
+/*admin-register_emp start*/
+
+h1{
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  padding: 55px;
+  width: 600px;
+  margin: 50px auto;
+  border-radius: 11px;
+}
+
+input[type="text"],input[type="date"], input[type="email"], input[type="password"],input[type="file"], #User_role {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #CCC;
+  margin-bottom: 10px;
+  background-color: #E8E8E8;
+  border-radius: 12px;
+}
+
+input[type="submit"] {
+  background-color: #44689D;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+    background-color: #44689d;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .container {
+    margin-left: 0;
+  }
+
+  .header-container h2 {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  nav ul li a {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  form {
+    width: 90%;
+    padding: 30px;
+    margin-top: 60px;
+    margin-left: 0;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}

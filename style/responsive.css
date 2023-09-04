@@ -1,0 +1,47 @@
+/* Responsive styles for the navigation */
+
+/* Hamburger menu icon */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Hide the navigation ul by default */
+ul {
+    display: none;
+    flex-direction: column;
+    background-color: #44689D;
+    margin-top: 0;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li a {
+    padding: 8px;
+}
+
+/* Display the navigation ul when the menu icon is clicked */
+#menu-toggle:checked ~ ul {
+    display: flex;
+}
+
+/* Display the menu icon only when the screen size is smaller */
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-left: 20px;
+    }
+    
+    .menu-icon {
+        display: block;
+    }
+}

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5ebff;
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  width: 210px;
+  background-color: #44689d;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 400;
+}
+
+.logo {
+  padding: 20px;
+  margin-left: 34px;
+}
+
+.logo img {
+  width: 80px;
+  border-radius: 2px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: calc(90% - 210px);
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 50px;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey; /* Add this line */
+  text-align: center;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none; /* Remove the right border for the last column */
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #305573;
+  color: #fff;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Styles */
+
+/* Small screens */
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+    background-color: #44689d;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .container {
+    margin-left: 0;
+  }
+  
+  .header-container h2 {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  nav ul li a {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+  
+  table {
+    font-size: 12px;
+  }
+  
+  th,
+  td {
+    padding: 6px;
+  }
+  
+  .pagination a {
+    padding: 6px 12px;
+  }
+}

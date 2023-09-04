@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h3,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: FFFFFF;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #fefefe;
+}
+
+.nav a {
+  float: right;
+  color: #1e1e1e;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.nav a:hover {
+  color: #ff1d1d; /* Set the hover color to #FF1D1D */
+}
+
+.nav img {
+  float: left;
+  max-width: 50px;
+  height: 50%;
+  display: block;
+  padding: 12px 20px;
+  margin: auto;
+}
+/*navbar end*/
+
+/*booking form start*/
+
+.form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: 70%;
+  margin-right: 50px;
+  margin-top: -735px;
+  margin-bottom: 50px;
+  height: 470px; /* Adjust the height to match .user-booking-item6 */
+  max-width: 28%;
+  border-radius: 30px;
+  border: 2px solid #d9d9d9;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 8px;
+  color: #767676;
+  padding: 6px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"] {
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px 2px;
+  border: 2px solid #bf6232;
+}
+
+.error-message {
+  color: red;
+}
+
+button[type="submit"] {
+  background-color: #ffe5d3;
+  color: #bf6232;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 18px; /* Add margin-top to create space between form inputs and button */
+  margin-left: 38%;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff8243;
+  color: #ffffff;
+}
+
+.user-booking-item {
+  height: 400px;
+  width: 200px;
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.user-booking-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.booking-form-wrapper {
+  display: flex;
+  justify-content: center; /* Align columns horizontally to the center */
+  margin-top: 80px;
+}
+
+.column {
+  width: calc(22.22% - 10px);
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: -150px;
+}
+
+.shape {
+  position: relative;
+  width: 800px;
+  height: auto;
+  background-color: #ff8243;
+  color: white;
+  border-radius: 15px;
+  margin-top: -69px;
+  margin-left: 30px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.package-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.package-name {
+  margin-bottom: 10px;
+}
+
+.package-price {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.information-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-height: 200px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
+.information {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.foot {
+  background-color: #fff;
+  padding: 8px;
+  text-align: center;
+  margin-top: 600px;
+}
+
+.foot1 {
+  background-color: #fff;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  padding: 2px;
+  text-align: center;
+  color: black;
+}

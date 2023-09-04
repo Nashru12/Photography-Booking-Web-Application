@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h3,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #fefefe;
+}
+
+.nav a {
+  float: right;
+  color: #1e1e1e;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.nav a:hover {
+  color: #ff1d1d; /* Set the hover color to #FF1D1D */
+}
+
+.nav img {
+  float: left;
+  max-width: 40px;
+  height: 50%;
+  display: block;
+  padding: 12px 20px;
+  margin: auto;
+}
+
+.rect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* Change align-items value to stretch */
+  margin-top: 20px;
+}
+
+.kotak {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 46%;
+  height: 300px; /* Set a fixed height for all kotak elements */
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.15);
+}
+
+.kotak img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px 4px 4px 10px;
+  margin-left: 20px;
+}
+
+.kotak .content ul {
+  position: relative;
+  list-style-type: none;
+}
+
+.kotak .content ul li {
+  padding-left: 20px;
+}
+
+.kotak .content ul .price {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+.kotak .content ul li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: #ff8243;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.content ul {
+  list-style: none;
+  margin: 0;
+  padding: 2px;
+  font-size: 16px;
+}
+
+.content ul li {
+  margin-bottom: 5px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  align-items: center; /* Center align items horizontally */
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.book a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff3ec;
+  color: #bf6232;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-top: 10px; /* Add margin top to create space between content and button */
+}
+
+.book a:hover {
+  background-color: #ff8243;
+  color: #ffffff;
+}
+
+/* .butang {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 30px;
+}
+
+.butang a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #9eaeff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-top: 10px; 
+}
+
+.butang a:hover {
+  background-color: #7f8ad2;
+} */
+
+/*wedding-packages end*/
+
+/*footer start*/
+.foot {
+  background-color: #fff;
+  padding: 8px;
+  text-align: center;
+  margin-top: 600px;
+}
+
+.foot1 {
+  background-color: #fff;
+  margin-top: 50px;
+  padding: 2px;
+  text-align: center;
+  color: black;
+}
+
+/*footer end*/
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+ /* Navigation Bar */
+ .nav a {
+  float: none;
+  display: block;
+  text-align: center;
+}
+
+.nav img {
+  float: none;
+  margin: 0 auto;
+}
+
+  .rect {
+    margin-top: 10px;
+  }
+
+  .kotak {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .kotak img {
+    max-height: 120px;
+  }
+
+  .kotak .content {
+    padding: 10px;
+  }
+
+  .kotak .content h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .kotak .content ul {
+    font-size: 14px;
+  }
+
+  .book {
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  .book a {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .foot1 {
+    margin-top: 30px;
+  }
+}

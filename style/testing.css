@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h3,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: FFFFFF;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #fefefe;
+}
+
+.nav a {
+  float: right;
+  color: #1e1e1e;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.nav a:hover {
+  color: #ff1d1d; /* Set the hover color to #FF1D1D */
+}
+
+.nav img {
+  float: left;
+  max-width: 50px;
+  height: 50%;
+  display: block;
+  padding: 12px 20px;
+  margin: auto;
+}
+/*navbar end*/
+
+/*booking form start*/
+
+.form-container {
+  background-color: #a7c1f5;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 55%;
+  border-radius: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"] {
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px 2px;
+}
+
+.error-message {
+  color: red;
+}
+
+button[type="submit"] {
+  background-color: #4dd952;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 18px; /* Add margin-top to create space between form inputs and button */
+  margin-left: 45%;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/*footer start*/
+.foot {
+  background-color: #9eaeff;
+  padding: 8px;
+  text-align: center;
+  margin-top: 80px;
+  text-decoration: none;
+}
+
+/*footer end*/
